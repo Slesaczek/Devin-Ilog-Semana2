@@ -1,3 +1,3 @@
-#M1S02
+# M1S02
 
-Semana 2
+Módulo 1 - Semana 2
