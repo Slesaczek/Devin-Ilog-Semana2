@@ -21,16 +21,27 @@ public class Ex03 {
 
         int[] extrato = { 100, -35, -15, -5, 55, -20 };
         int i = 0;
+        float valorConta = 0f;
 
         //A
         for(i = 0; i<extrato.length; i++) {
             //System.out.println(extrato[i]);
         }
         //B
-        for(i=extrato.length; i>0; i--) {
+        for(i=extrato.length-1; i>=0; i--) {
             System.out.println(extrato[i]);
         }
-
+        //C
+        for(i=extrato.length-1; i>=0; i--) {
+            valorConta += extrato[i];
+        }
+        System.out.println(valorConta);
+        //D
+        if(valorConta>0){
+            System.out.println("Saldo positvo");
+        }else{
+            System.out.println("Saldo negativo");
+        }
 
 
     }
